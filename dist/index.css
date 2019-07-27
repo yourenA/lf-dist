@@ -16219,6 +16219,11 @@ textarea.ant-time-picker-input {
 .header___2lHyK .logo .logo-up {
   font-size: 24px;
 }
+@media screen and (max-width: 480px) {
+  .header___2lHyK .logo .logo-up {
+    font-size: 20px;
+  }
+}
 .header___2lHyK .logo .logo-down {
   font-size: 16px;
 }
