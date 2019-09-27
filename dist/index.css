@@ -21457,7 +21457,6 @@ fieldset legend .anticon {
 }
 .pagination {
   float: right;
-  margin-top: 10px !important;
 }
 .dynamic-data,
 .proportion-data,
@@ -21955,6 +21954,25 @@ fieldset legend .anticon {
 .ant-divider-vertical {
   margin: 0 5px;
 }
+.ant-modal-close-x {
+  color: #fff !important;
+}
+.ant-modal-header {
+  background: #2f54eb !important;
+}
+.ant-modal-header .ant-modal-title {
+  color: #fff !important;
+}
+.my-pagination {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 10px;
+  border-top: 1px solid #e8e8e8;
+}
+.my-pagination .pagination {
+  margin-top: 8px !important;
+}
 @media screen and (max-width: 992px) {
   .tableListForm___22TTk .ant-form-item {
     margin-right: 24px;
@@ -22117,7 +22135,6 @@ fieldset legend .anticon {
 }
 .main___184Al .additional___2K00l .submit___36ueN {
   width: 100%;
-  margin-top: 24px;
 }
 .main___184Al .additional___2K00l .ant-form-item-control {
   line-height: 22px;
