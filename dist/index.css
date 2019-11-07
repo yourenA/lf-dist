@@ -24897,7 +24897,7 @@ td.white-bg {
   color: #eeeeee;
 }
 .alarm-item .alarm-item-value {
-  margin-bottom: 4px;
+  line-height: 1;
 }
 .alarm-item .alarm-item-value span {
   font-size: 18px;
@@ -24905,6 +24905,7 @@ td.white-bg {
   font-weight: 400;
 }
 .alarm-item button {
+  margin-top: 8px;
   margin-right: 8px;
 }
 @media screen and (max-width: 992px) {
