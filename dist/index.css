@@ -24908,6 +24908,9 @@ td.white-bg {
   margin-top: 8px;
   margin-right: 8px;
 }
+.rst__rowWrapper {
+  padding: 8px 8px 0 0;
+}
 @media screen and (max-width: 992px) {
   .tableListForm___22TTk .ant-form-item {
     margin-right: 24px;
