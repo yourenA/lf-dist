@@ -24422,7 +24422,7 @@ fieldset legend .anticon {
   margin: 0;
 }
 .ant-tree.ant-tree-show-line li span.ant-tree-switcher {
-  background-color: #f1f1f1 ;
+  background-color: #f1f1f1;
 }
 .ant-table-small .error {
   color: #f5222d;
@@ -24827,6 +24827,10 @@ td.white-bg {
 .my-pagination .pagination {
   margin-top: 8px !important;
 }
+.sort-content .ant-tabs-top > .ant-tabs-bar {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .ant-tabs-top > .ant-tabs-bar {
   background: #fafafa !important;
   border-bottom: solid 2px #222d32 !important;
@@ -24845,7 +24849,7 @@ td.white-bg {
   margin-right: 0 !important;
   border-radius: 0 !important;
   color: #222d32 !important;
-  line-height: 40px  !important;
+  line-height: 40px !important;
   padding: 0 16px;
 }
 .ant-tabs-top > .ant-tabs-bar .ant-tabs-nav .ant-tabs-tab-active {
@@ -24864,7 +24868,7 @@ td.white-bg {
 }
 .alarm-item {
   width: 193px;
-  padding: 10px 15px ;
+  padding: 10px 15px;
   background: #CCCCCC;
   margin-right: 10px;
   margin-bottom: 10px;
