@@ -24513,14 +24513,29 @@ fieldset legend .anticon {
 .layout {
   height: calc(100vh - 68px);
   overflow: hidden;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box !important;
 }
 .layout .sider {
   background: url(/static/sider-water.799df5c9.png) no-repeat bottom;
   background-size: 100%;
   background-color: #f1f1f1 !important;
   height: 100%;
-  border-right: 2px solid #ccc;
   width: 210px;
+  position: relative;
+}
+.layout .sider::after {
+  content: ' ';
+  width: 2px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  right: 0;
+  background: #ccc;
+  top: 0;
 }
 .layout .sider .sider-title {
   font-size: 14px;
@@ -24574,6 +24589,10 @@ fieldset legend .anticon {
 }
 .layout .ant-layout-content {
   background: #ffffff;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 100%;
 }
 .layout .content .content-container {
   margin: 24px 24px 0;
@@ -24914,6 +24933,25 @@ td.white-bg {
 }
 .rst__rowWrapper {
   padding: 8px 8px 0 0;
+}
+.sider-resize {
+  width: 210px ;
+  position: relative;
+  min-height: calc(100vh - 68px);
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden ;
+}
+.custom-handle {
+  width: 3px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: #ccc;
+  right: 0;
+  bottom: 0;
+  cursor: e-resize;
+  z-index: 89;
 }
 @media screen and (max-width: 992px) {
   .tableListForm___22TTk .ant-form-item {
