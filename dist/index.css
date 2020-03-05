@@ -24926,8 +24926,8 @@ td.white-bg {
 }
 .alarm-item .alarm-item-value span {
   font-size: 18px;
-  color: #000;
-  font-weight: 400;
+  color: #1d1d1d;
+  font-weight: 500;
 }
 .alarm-item button {
   margin-top: 8px;
