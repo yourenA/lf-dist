@@ -18934,7 +18934,7 @@ li.ant-select-tree-treenode-disabled > .ant-select-tree-node-content-wrapper:hov
   cursor: not-allowed;
 }
 .main___2lNyy {
-  padding: 12px;
+  padding: 16px;
 }
 .main___2lNyy .ant-collapse-header {
   padding: 6px 0 6px 6px!important;
@@ -18948,59 +18948,46 @@ li.ant-select-tree-treenode-disabled > .ant-select-tree-node-content-wrapper:hov
 }
 .main___2lNyy .topItem___3ghLs {
   height: 100px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   position: relative;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   color: #ffffff;
-  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px 3px 1px #ffffff;
+          box-shadow: 0px 0px 3px 1px #ffffff;
+  border-radius: 5px;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
+.main___2lNyy .topItem___3ghLs .image___1Waxd {
+  margin-right: 10px;
+}
+.main___2lNyy .topItem___3ghLs .image___1Waxd img {
+  width: 54px;
+  height: 54px;
+}
 .main___2lNyy .topItem___3ghLs .count___1dnD5 {
   font-weight: bold;
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
+  margin-top: -10px;
 }
 .main___2lNyy .topItem___3ghLs .explain___1LACp {
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
-}
-.main___2lNyy .topItem___3ghLs:after {
-  content: '';
-  position: absolute;
-  width: 100px;
-  height: 8px;
-  border-bottom: 1px dotted #000;
-  background: #ffffff;
-  right: -25px;
-  top: 0;
-  -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
-.main___2lNyy .topItem___3ghLs.topItem1___2aFL- {
-  background: #40c4ff;
-}
-.main___2lNyy .topItem___3ghLs.topItem2___fEoKl {
-  background: #26a69a;
-}
-.main___2lNyy .topItem___3ghLs.topItem3___3j0-o {
-  background: #63869e;
-}
-.main___2lNyy .topItem___3ghLs.topItem4___1LAOr {
-  background: #ef5350;
 }
 /* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
 /* stylelint-disable no-duplicate-selectors */
@@ -24225,6 +24212,7 @@ body {
 }
 body {
   min-width: 1000px;
+  background: #145ecb;
 }
 .btn-cyan {
   background-color: #13c2c2 !important;
@@ -25000,6 +24988,21 @@ td.white-bg {
   color: #2668dd;
   font-size: 16px;
   margin-left: 3px !important;
+}
+.homepage-content .ant-input,
+.homepage-content .ant-select-selection {
+  background-color: transparent;
+  color: #ffffff;
+}
+.homepage-content .ant-calendar-picker-icon {
+  color: #fff;
+}
+.homepage-content .ant-card {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.homepage-content .ant-card .ant-card-head {
+  color: #24fff9;
 }
 @media screen and (max-width: 992px) {
   .tableListForm___22TTk .ant-form-item {
